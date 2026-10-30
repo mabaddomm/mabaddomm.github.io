@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+}
+
+header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+
+#home-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.portrait-image {
+   flex: 1;
+  display: flex;
+  justify-content: center;
+}
